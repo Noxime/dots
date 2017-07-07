@@ -1,0 +1,59 @@
+#define fg #d2cbf5
+#define bg #222222
+#define trans 20
+#define argb_bg argb:CC222222
+
+! I3
+*border_active: #ea882a
+*border_edge: #aca1e6
+
+!   URxvt
+
+URxvt.perl-ext-common: default,clipboard,config-reload
+URxvt.font: xft:Source Code Pro:size=10
+URxvt.foreground: fg
+URxvt.background: bg
+URxvt.transparent: true
+URxvt.shading: trans
+URxvt*scrollBar: false
+
+!   ROFI
+rofi.color-enabled: true
+rofi.color-window: argb_bg, argb:0000000, argb:0000000
+rofi.color-normal: argb:00000000, fg, argb:00000000, fg, bg
+rofi.color-active: argb:00000000, #0ea1f0, bg, #0ea1f0, bg
+rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
+
+!   Colors I guess
+
+! black
+*.color0:       #151515
+*.color8:       #444444
+
+! red
+*.color1:       #fb9fb1
+*.color9:       #fa3963
+
+! green
+*.color2:       #acc267
+*.color10:      #92c219
+
+! yellow
+*.color3:       #ddb26f
+*.color11:      #de9116
+
+! blue
+*.color4:       #6fc2ef
+*.color12:      #0ea1f0
+
+! magenta
+*.color5:       #e1a3ee
+*.color13:      #d142ed
+
+! cyan
+*.color6:       #51cfc4
+*.color14:      #00cfba
+
+! white
+*.color7:       #aaaaaa
+*.color15:      #dddddd
